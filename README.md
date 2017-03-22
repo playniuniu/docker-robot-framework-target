@@ -11,6 +11,6 @@ Please see [playniuniu/robot-framework](https://github.com/playniuniu/docker-rob
 If you want to run this single docker, please use the command:
 
 ```bash
-docker run -d --rm -p 8000:80 -v YOUR_HTML_FOLDER:/opt/web playniuniu/robot-target
+docker run -d --rm -p 8000:80 -v YOUR_HTML_FOLDER:/opt/web --name robot-framework-target playniuniu/robot-framework-target
 ```
 
